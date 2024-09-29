@@ -68,11 +68,3 @@ Follow these steps to get the project running on your local machine.
 ## Contributing
 
 Feel free to fork this repository and submit a pull request if you wish to contribute to the project. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-You can copy this content directly into your `README.md` file. Let me know if there’s anything else you’d like to add or adjust!
