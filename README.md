@@ -40,16 +40,16 @@ Follow these steps to get the project running on your local machine.
     ```
 
 5. **Set up the database**:  
-    Laravel uses SQLite3 by default in this project. There is already a SQLite file and create.sql in the `database/` directory. Run the create.sql file to create the tables and sample data:
+    Laravel uses SQLite3 by default in this project. There is already a SQLite file and create.sql in the `database/` directory. :
+    ```bash
+    touch database/database.sqlite
+    ```
+
+6. **Create table in database**:  
+    Run the create.sql file to create the tables and sample data:
     ```bash
     sqlite3 database/database.sqlite
     .read database/create.sql
-    ```
-
-6. **Run the database migrations**:  
-    Use Laravel’s migration system to create the required database tables:
-    ```bash
-    php artisan migrate
     ```
 
 7. **Serve the application**:  
